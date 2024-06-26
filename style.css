@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    background-image: url(./image/MDeJKJC.jpeg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+
+img{
+    width: 1.5rem;
+}
+
+
+input{
+    outline: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+button{
+    padding: 0.5rem;
+    border: none;
+    width: 4rem;
+    background-color: #6a6aca;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6565dd;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.condition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.condition img{
+    width: 4rem;
+}
+
+.info{
+    position: relative;
+    padding-top: 2rem;
+}
+
+.city{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1rem;
+}
+
+
+.details{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .card:nth-child(2){
+    border-left: 1px solid #fff;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+}
+
+.card i{
+    font-size: 1.5rem;
+}
+.error{
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+}
